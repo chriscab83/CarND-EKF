@@ -1,7 +1,9 @@
 # Extended Kalman Filter Project
 Self-Driving Car Engineer Nanodegree Program
 
-This project implements an extended kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
+This project implements an extended kalman filter to estimate the state of a moving object of interest by combining noisy lidar and radar measurements.
+
+Code for c++ implementation can be found in the [here](/src).
 
 ## Installation and Usage
 
@@ -44,3 +46,9 @@ OUTPUT: values provided by the c++ program to the simulator
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+  
+## Example Output
+
+![Output 1](/output_imgs/img1.png)
+![Output 2](/output_imgs/img2.png)
+
