@@ -1,7 +1,7 @@
 # Extended Kalman Filter Project
 Self-Driving Car Engineer Nanodegree Program
 
-This project implements an extended kalman filter to estimate the state of a moving object of interest by combining noisy lidar and radar measurements.
+This project implements an extended kalman filter to estimate the state of a moving object of interest by combining noisy lidar and radar measurements.  The project code then tests the EKF's performance against ground_truth values using the root-mean-squared error.
 
 Code for c++ implementation can be found in the [here](/src).
 
@@ -51,4 +51,10 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ![Output 1](/output_imgs/img1.png)
 ![Output 2](/output_imgs/img2.png)
+
+Red circles are lidar measurements.
+
+Blue circles are radar measurements (position markers inferred from radius and angle; the also-supplied radial velocity measurements are not shown).
+
+Green markers are the car's position as estimated by the Kalman filter. It's clear that the Kalman filter does a good job of tracking the car's position with significantly reduced noise.
 
